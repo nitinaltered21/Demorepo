@@ -1,0 +1,18 @@
+.highlight {
+    position: relative;
+    display: inline-block;
+    animation: highlight 1s infinite;
+  }
+  
+  @keyframes highlight {
+    0% {
+      background-color: transparent;
+    }
+    50% {
+      background-color: yellow;
+    }
+    100% {
+      background-color: transparent;
+    }
+  }
+  
